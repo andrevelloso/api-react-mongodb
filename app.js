@@ -18,6 +18,8 @@ import {professorRouter} from './routes/professorRouter.js';
   } catch (error) {console.log("Erro ao conectar ao MongoDB Atlas "+error);}
 })();
 
+// Alteracao para testar o git
+
 const app = express();
 
 app.use(express.json());
